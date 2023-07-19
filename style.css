@@ -217,11 +217,15 @@ padding-right: 250px;
     justify-content: space-around;
     align-items: center;
     gap: 200px;
-    width: 1440px;
-    height: auto 0;
+    width: 1920px;
+    height: auto;
+    margin-top: 250px;
+
 
 }
-
+  .play-text{
+    padding-left: 200px;
+  }
 .play-text h1{
     text-align: center; 
     font-size: 48px;
@@ -248,13 +252,17 @@ padding-right: 250px;
     -webkit-text-fill-color: transparent;
 }
 
-.play-image{
-
-}
-
 .big-image{
     border-radius: 8px;
     width: 50%;
-    height: 70%;
+    height: 50%;
+    padding-right: 200px;
 
+}
+
+.small-image{
+    position:relative;
+    bottom: 265px;
+    right: 165px;
+    border-radius: 8px;
 }
