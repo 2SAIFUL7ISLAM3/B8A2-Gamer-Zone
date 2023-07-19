@@ -167,3 +167,94 @@ padding-right: 250px;
     font-weight: 700;
     line-height: 45px;
 }
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.online-game-section h1{
+    color: #0B0223;
+    text-align:center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.online-game-section > p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
+.card{
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+
+}
+
+.caption{
+    color: #534C64;
+    font-size: 20px; 
+    font-weight: 500;
+    line-height: 30px; 
+    padding-top: 20px;
+}
+
+.play-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    width: 1440px;
+    height: auto 0;
+
+}
+
+.play-text h1{
+    text-align: center; 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.play-text p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.play-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-image{
+
+}
+
+.big-image{
+    border-radius: 8px;
+    width: 50%;
+    height: 70%;
+
+}
