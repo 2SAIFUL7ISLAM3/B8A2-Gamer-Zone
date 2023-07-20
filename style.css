@@ -388,54 +388,66 @@ gap: 15px;
 
 
 
-@media only screen and (max-width: 576px) {
+@media  screen and (max-width: 576px) {
     /* Adjust header layout for mobile */
-    .nav-container {
+    .nav-container,.nav-container ul {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .logo {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    
-    .logo ul {
-        display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+        padding: 50px;
     }
-    
-    .logo li {
-        margin: 0 5px;
-    }
-    
+
     /* Adjust banner layout for mobile */
 
     .banner-section {
-        flex-direction: column;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto 0;
     }
-    
+
     .banner-description {
+        max-width: 100%;
+        margin: auto 0;
         text-align: center;
-        margin-bottom: 20px;
+        padding: 50px;   
     }
-    
-    .banner-image {
-        text-align: center;
+
+    .banner-image{
+        max-width: 100%;
+        margin: auto 0;
+        padding: 50px;
     }
-    
-    /* Adjust gamer section layout for mobile */
+    .banner-image img{
+        max-width: 100%;
+        margin: auto 0;
+        padding: 0px;
+    }
 
     .gamer-section {
+        display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto 0;
+        padding: 0px;
     }
-    
-    .gamer-description {
+
+    .gamer-description h1 {
         text-align: center;
-        margin-bottom: 20px;
+        font-size: 48px;
+        font-weight: 700;
     }
-    
+
+    .gamer-section img{
+        width: 100%;
+        height: 100%;
+    }
+
     /* Adjust online game section layout for mobile*/
 
     .online-game-section {
@@ -446,127 +458,60 @@ gap: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 100px;
     }
     
-    .card {
-        margin-bottom: 20px;
-    }
     
-    /* Adjust play section layout for mobile*/
+    /* Adjust play section layout for mobile */
+
     .play-section {
-        flex-direction: column;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto 0;
+        padding: 0px;
     }
-    
     .play-text {
+        display:flex;
+        flex-direction: column;
         text-align: center;
-        margin-bottom: 20px;
+        padding: 50px 0px;
     }
     
-    .big-image,
-    .small-image {
-        text-align: center;
-        margin-bottom: 20px;
+    .play-section-image {
+        padding: 100px;
+        width: 50%;
+        height: 50%;
+        margin: auto 0;
+    }
+
+    .big-image,.small-image{
+        padding: 0px;
+        width: 100%;
+        height: 50%;
     }
     
     /* Adjust game corner section layout for mobile*/
 
-    .game-corner {
+    .game-corner,.footer-details ,.footer-logo{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer-section{
+            width: 120%;
+            height: 100%;
+    }
+
+    .footer-policy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
     }
 }
-
-    @media only screen and  (max-width: 768px) {
-
-        /* Adjust header layout for tab*/
-
-        .nav-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .logo {
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        
-        .logo ul {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 10px;
-        }
-        
-        .logo li {
-            margin: 0 5px;
-        }
-        
-        /* Adjust banner layout for tab */
-
-        .banner-section {
-            flex-direction: column;
-        }
-        
-        .banner-description {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .banner-image {
-            text-align: center;
-        }
-        
-        /* Adjust gamer section layout for tab */
-
-        .gamer-section {
-            flex-direction: column-reverse;
-        }
-        
-        .gamer-description {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        /* Adjust online game section layout for tab */
-
-        .online-game-section {
-            text-align: center;
-        }
-        
-        .card-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .card {
-            margin-bottom: 20px;
-        }
-        
-        /* Adjust play section layout for tab */
-        .play-section {
-            flex-direction: column;
-        }
-        
-        .play-text {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .big-image,
-        .small-image {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        /* Adjust game corner section layout for tab */
-
-        .game-corner {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 10px;
-            text-align: center;
-        }
-    }
